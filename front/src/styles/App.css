@@ -1,0 +1,115 @@
+html {
+    background-image: url('../media/background.jpg');
+    background-repeat: no-repeat;
+    background-size:cover; 
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family:'Verdana';
+    font-size: 18px;
+}
+hr {
+    width: 600px;
+    height: 2px; 
+    background-color: #440e0e; 
+}
+h1 {
+    text-align: center;
+    color: black;
+}
+
+button, select {
+    margin: 10px 10px;
+    padding: 10px 15px;
+    line-height: 28px;
+    border-radius: 9px;
+    font-size: 1.4em;
+    color: black;
+    background: rgb(255, 255, 255);
+    transition: 0.3s;
+  }
+
+button:hover, select:hover {
+    
+    box-shadow: 0px 2px 8px 2px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+}
+
+.button {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.active{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.normal {
+    font-size: 1.2em;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.button_name {
+    border: none;
+    margin: 10px 10px;
+    padding: 10px 15px;
+    line-height: 28px;
+    border-radius: 9px;
+    font-size: 1.5rem;
+    color: black;
+    background: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.r {
+   
+    padding: 5px 35px;
+    line-height: 28px;
+    border-radius: 9px;
+    font-size: 1.6rem;
+    color: black;
+    background: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.recipe {
+    text-align: center;
+    
+}
+
+.food {
+    padding: 100px 180px;
+    text-align: left;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+img {
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.text_recipe{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 20px;
+}
