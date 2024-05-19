@@ -5,7 +5,6 @@ from rest_framework.response import Response
 
 
 class CategoryViewSet(viewsets.ModelViewSet):
-
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
 
@@ -29,7 +28,6 @@ class FoodViewSet(viewsets.ModelViewSet):
 
 
 class FoodListViewSet(viewsets.ModelViewSet):
-
     queryset = Food.objects.all()
     serializer_class = FoodListSerializer
 
