@@ -7,8 +7,8 @@ class CategoryAdmin(admin.ModelAdmin):
 
 
 class FoodAdmin(admin.ModelAdmin):
-    list_display = ('id','title', 'foodCategory')
+    list_display = ('id', 'title', 'foodCategory')
 
 
 admin.site.register(Food,FoodAdmin)
-admin.site.register(Category,CategoryAdmin)
+admin.site.register(Category, CategoryAdmin)
