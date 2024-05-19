@@ -8,7 +8,7 @@ function Food() {
     const [food, setFood] = useState();
 
     useEffect(() => {
-        axios.get(`http://127.0.0.1:8000/cooking_recipe/food/?food_id=${id}`)
+        axios.get(`http://127.0.0.1:8000/food/?food_id=${id}`)
             .then(res => {
                 setFood(res.data);
                 setLoading(false);

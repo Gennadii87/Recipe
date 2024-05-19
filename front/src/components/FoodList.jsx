@@ -11,7 +11,7 @@ function FoodList() {
 
 
     useEffect(() => {
-        axios.get(`http://127.0.0.1:8000/cooking_recipe/foodlist/?category=${category.id}`).then(res => {
+        axios.get(`http://127.0.0.1:8000/foodlist/?category=${category.id}`).then(res => {
             setDishes(res.data);
             setLoading(false);
         });

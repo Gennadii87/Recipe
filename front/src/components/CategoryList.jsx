@@ -9,7 +9,7 @@ function CategoryList() {
     const [category, setCategories] = useState();
 
     useEffect(() => {
-        axios.get("http://127.0.0.1:8000/cooking_recipe/category/").then((resp) => {
+        axios.get("http://127.0.0.1:8000/category/").then((resp) => {
             setCategories(resp.data);
             setLoading(false);
         });
